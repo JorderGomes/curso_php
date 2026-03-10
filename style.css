@@ -31,7 +31,7 @@ header > h1 {
     text-shadow: 3px 3px 0px black;
 }
 
-main, section, article {
+main, section, article, .card {
     background-color: white;
     padding: 15px;
     margin-bottom: 20px;
