@@ -17,7 +17,7 @@
         </form>
         <?php 
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                $numero = rand(1, 100);
+                $numero = mt_rand(1, 100);
                 echo "<p>O número sorteado foi: <strong>$numero</strong></p>";
             }
         ?>
