@@ -12,7 +12,7 @@
     </header>
     <main>
         <?php
-            $num = $_GET['num'] ?? 'Número não informado';
+            $num = $_GET['num'] ?? 0;
             $ant = $num - 1;
             $suc = $num + 1;
 
